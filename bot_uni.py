@@ -20,7 +20,7 @@ menu_kb.add(Text("Посмотреть мои успехи"), color=KeyboardButt
 menu_kb.row()
 menu_kb.add(Text("Посмотреть все задания"), color=KeyboardButtonColor.PRIMARY)
 menu_kb.row()
-menu_kb.add(Text("Кнопка"), color=KeyboardButtonColor.POSITIVE)
+menu_kb.add(Text("Кнопка"))
 
 r_cases1 = Keyboard(one_time=False, inline=False)
 r_cases1.add(Text("Философия"), color=KeyboardButtonColor.PRIMARY)
@@ -52,7 +52,7 @@ r_cases2.add(Text("Практика"), color=KeyboardButtonColor.PRIMARY)
 r_cases2.row()
 r_cases2.add(Text("Предыдущая страница"), color=KeyboardButtonColor.PRIMARY)
 r_cases2.row()
-r_cases2.add(Text("Вернуться в главное меню"), color=KeyboardButtonColor.NEGATIVE)
+r_cases2.add(Text("Вернуться в главное меню"))
 
 YN_kb = Keyboard(one_time=False, inline=False)
 YN_kb.add(Text("Да, сделал"), color=KeyboardButtonColor.POSITIVE)
@@ -65,7 +65,7 @@ CP_kb.add(Text("Предыдущее"), color=KeyboardButtonColor.PRIMARY)
 r_information = Keyboard(one_time=False, inline=False)
 r_information.add(Text("Редактировать выполненные"), color=KeyboardButtonColor.PRIMARY)
 r_information.row()
-r_information.add(Text("Вернуться в главное меню"), color=KeyboardButtonColor.NEGATIVE)
+r_information.add(Text("Вернуться в главное меню"))
 
 
 #-----------------------------------------MESSAGES----------------------------
