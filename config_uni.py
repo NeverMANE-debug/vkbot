@@ -1,4 +1,4 @@
-#!/usr/bin/env python3.9
+
 
 TOKEN = '70e53471fb4ee965e1110fc12c23e7b1e7ce9bfa64c4c3ab9dab0b9af84b89fb7a1bee76a331806f07da7'
 
